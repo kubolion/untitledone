@@ -1,0 +1,35 @@
+.infoData{
+    padding: 20px;
+}
+
+.list-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.post{
+    display: grid;
+    border: 1px solid black;
+    padding: 5px;
+    gap: 5px;
+    align-items: center;
+}
+
+.card{
+    grid-template-columns: 0.5fr 1.5fr 3fr;
+}
+.comments{
+    grid-template-columns: 0.5fr 1.5fr 3fr;
+
+}
+
+.photos{
+    grid-template-columns: 0.5fr 2fr 1.5fr;
+}
+.todos{
+    grid-template-columns: 1fr 2fr;
+}
+
+.users{
+    grid-template-columns: 0.5fr 1.7fr 1.5fr 3fr 0.8fr;
+}
